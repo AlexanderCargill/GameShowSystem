@@ -1,5 +1,69 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid fca8028f-d9c5-4b69-a431-326433b6f121)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (title "System")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 124.46 46.99) (size 66.04 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 127bbffc-5f9e-46f9-b39f-d8c70d161eb6)
+    (property "Sheetname" "Microcontroller" (at 124.46 46.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microcontroller.kicad_sch" (at 124.46 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "GameShowHub"
+        (path "/fca8028f-d9c5-4b69-a431-326433b6f121" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 44.45 45.72) (size 64.77 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 78aa0ea3-7b8b-46fa-af62-cc139c55ef2b)
+    (property "Sheetname" "Power" (at 44.45 45.0084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 44.45 90.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "GameShowHub"
+        (path "/fca8028f-d9c5-4b69-a431-326433b6f121" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 44.45 102.87) (size 64.77 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f116790f-b88a-433c-94cc-e6f391433365)
+    (property "Sheetname" "Distribution" (at 44.45 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Distribution.kicad_sch" (at 44.45 144.0946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "GameShowHub"
+        (path "/fca8028f-d9c5-4b69-a431-326433b6f121" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
