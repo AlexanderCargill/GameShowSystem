@@ -1,0 +1,24 @@
+Buttons v2 Quote
+	Authors: Alex Cargill and Jake Wesselink
+	Created: 04/10/2024
+
+Deliverables: 
+	A user-friendly gameshow button system for use as a prop during performances. 
+	- The system Wifi settings will be configurable over Bluetooth, enabling the user to manually set up the device on any available Wifi network. 
+ 	- The system will be rechargeable
+	- The system charge will also be viewable over Bluetooth.
+	- The system will have a power switch. 
+	- The device will be placed in a 3D-printed housing ensuring that it is protected.
+	- The system will be easy to set up and use.
+
+Required Materials: 
+	- A printed circuit board will be made that includes charging circuitry, Bluetooth capability, Wifi capability and a microcontroller.
+
+Reused Materials (From Buttons v1):
+	- The 4 x LED buttons as well as their 3D printed casings.
+	- The 4 x 18650 Lithium Ion Battery pack.
+	
+Pricing: 
+Cost of materials for PCB - R1500 
+Cost of development - R1000
+
